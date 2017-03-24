@@ -7,7 +7,10 @@
  * @version 1.13
  * @link http://pagecho.com
  */
-
+ 
+  // Convert URL to HTML Link
+  // add_filter('the_content', 'make_clickable');
+ 
 	// 定义主题路径
 	define( "THEMEPATH", get_bloginfo('template_directory') );
 

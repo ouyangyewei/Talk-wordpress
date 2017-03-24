@@ -76,7 +76,16 @@ textarea {
     clear:both; }
 
 .post-content a,.comment-content a {
-	border-bottom:1px solid #ddd;
+	/* border-bottom:1px solid #ddd; */
+	border-bottom: 1px dashed #ddd;
+	color: #4094c7;
+	display: inline;
+	word-break: break-word;
+}
+.post-content p a:before {
+	font-family: "Fontawesome";
+	content: "\f0c1";
+	padding-right: 0.3em;
 }
 .post-meta a:hover,.post-content a:hover,.widget a:hover,.comment-content a {
 	border-bottom-color:transparent;
@@ -216,7 +225,7 @@ width:800px;
 }
 .post-content {
 	font-size: 15px;
-	line-height: 1.715;
+	/* line-height: 1.715; */
 	color:#444;
 	padding-top:10px;
   padding-left: 10px;
@@ -228,6 +237,7 @@ width:800px;
 }
 .post-content p{
 	margin:0 0 1.234em;
+	/* word-break: break-word; */
 }
 .post-content img {
 	/* padding:1em 0; */
